@@ -6,8 +6,8 @@ import (
 	"net/http"
 
 	"github.com/gorilla/websocket"
+	"github.com/rbo13/go-drawing/message"
 	"github.com/tidwall/gjson"
-	"github.com/whaangbuu/go-drawing/message"
 )
 
 //Hub is our handler
